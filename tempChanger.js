@@ -17,3 +17,11 @@ const makeSomethingHotAsAPotato = thing => {
   something['temperature'] = potato.temperature;
   return something;
 }
+
+const isCoolerThanACucumber = thing => (
+  thing.temperature < cucumber.temperature;
+)
+
+const isHotterThanAPotato = thing => (
+  thing.temperature > potato.temperature;
+)
